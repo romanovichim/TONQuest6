@@ -10,7 +10,7 @@
 
 ---
 
-# Checkpoint 0:  Install 
+# Checkpoint 0:  📦 Install 📚
 
 Required: 
 * [Git](https://git-scm.com/downloads)
@@ -30,7 +30,7 @@ yarn chain
 ---
 
 
-# Checkpoint 1: Analyze Logic
+# Checkpoint 1: 🔬 Analyze Logic 😮
 
 Understanding how smart contracts work, you can get almost any information from the network. In TON, the actor model, respectively, in order to understand where to get information, you need to understand the chain of smart contracts.
 
@@ -41,7 +41,7 @@ Let's try to go this way for the Getgems marketplace, take some NFT and, moving 
 
 ---
 
-# Checkpoint 2: Search for Marketplace Contract
+# Checkpoint 2: 📡 Search for Marketplace Contract 📡
 
 So we have a clean slate in front of us and we need to start from something. The simplest thing seems to be to take the address of the NFT from the marketplace and try to look at it in detail.
 
@@ -59,7 +59,6 @@ As you can understand, royalties from each sale come here, which means that we c
 
 Run the script and check in the exporter https://tonscan.org/ that the transactions are correct.
 
-TBD Script для запроса транзакций - сверьте, что то, что надо
 
 ```sh
 yarn getmarketplace
@@ -70,7 +69,7 @@ Result:
 
 ---
 
-# Checkpoint 3: Search for Types of sales
+# Checkpoint 3: 👩‍🚀 Search for Types of sales 👩‍🚀
 
 Now we have all the sales, but they are different, I’ll tell you right away that Getgems have:
 - Simple Sale
@@ -105,7 +104,7 @@ yarn getauction
 
 ---
 
-# Checkpoint 4: Query last sales
+# Checkpoint 4:🎩  Query last sales  🎩
 
 Let's collect everything we learned in past checkpoints and display information about the last NFTs sold
 
@@ -125,8 +124,14 @@ Cool, but not enough, an additional script that would display at the NFT address
 
 # ⚔️ Side Quests
 
-TBD
+Quick results are great, but to play longer, enjoy the ecosystem, I suggest you the following tutorials:
+- [Introductory](https://github.com/romanovichim/TonFunClessons_Eng/blob/main/lessons/requests/ADNL/adnlintro.md) about ADNL and connecting to it
+- Run [Get Method](https://github.com/romanovichim/TonFunClessons_Eng/blob/main/lessons/requests/ADNL/adnlgetsale.md) and how sales contracts work 
+- [Collect](https://github.com/romanovichim/TonFunClessons_Eng/blob/main/lessons/requests/ADNL/adnltxes.md) transactions on ADNL
 
+
+
+ 
 
 
  
