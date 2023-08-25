@@ -25,7 +25,6 @@ git clone https://github.com/romanovichim/TONQuest6.git
 ```sh
 cd challenge-6
 yarn install
-yarn chain
 ```
 ---
 
