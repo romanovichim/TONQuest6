@@ -129,8 +129,14 @@ Quick results are great, but to play longer, enjoy the ecosystem, I suggest you 
 - [Collect](https://github.com/romanovichim/TonFunClessons_Eng/blob/main/lessons/requests/ADNL/adnltxes.md) transactions on ADNL
 
 
+# 🏆 Reward 
 
- 
+Congratulations on successfully completing this challenge! Before we conclude, let's take a quick look at the exciting reward awaiting you from the <a target="_blank" href="https://getgems.io/collection/EQCHmSDdqcpV7EWe0BCsj6ZbH-3z6mKWJSeVEUHmfEug-ONQ">"TON Speedrun"</a> collection:
 
+<img style="border-radius: 10pt; margin: 25pt auto; display: block;" width="40%" src="https://ton-devrel.s3.eu-central-1.amazonaws.com/tonspeedrun/4/image.jpg">
 
- 
+Ready to claim your reward? Just scan the QR code, which can be generated using the script below:
+
+```sh
+yarn reward
+```
